@@ -53,13 +53,13 @@ class Layout extends Component {
                             <div className="outfit-tile-group">
                                 <div className="outfit-tile">
                                     <img className="articleImage" alt="" src={outfit[0].imageURL}/>
-                                    <p>£30</p>
+                                    <p>£{outfit[0].priceRange.min_price}</p>
                                     <button className="button button--icon button--refresh"><span
                                         className="acc-text">Refresh</span></button>
                                 </div>
                                 <div className="outfit-tile">
                                     <img className="articleImage" alt="" src={outfit[1].imageURL}/>
-                                    <p>£30</p>
+                                    <p>£{outfit[1].priceRange.min_price}</p>
                                     <button className="button button--icon button--refresh"><span
                                         className="acc-text">Refresh</span></button>
                                 </div>
@@ -67,7 +67,7 @@ class Layout extends Component {
                             <div className="outfit-tile-group">
                                 <div className="outfit-tile outfit-tile--full-height">
                                     <img className="articleImage" alt="" src={outfit[2].imageURL}/>
-                                    <p>£30</p>
+                                    <p>£{outfit[2].priceRange.min_price}</p>
                                     <button className="button button--icon button--refresh"><span
                                         className="acc-text">Refresh</span></button>
                                 </div>
@@ -75,13 +75,13 @@ class Layout extends Component {
                             <div className="outfit-tile-group">
                                 <div className="outfit-tile">
                                     <img className="articleImage" alt="" src={outfit[3].imageURL}/>
-                                    <p>£30</p>
+                                    <p>£{outfit[3].priceRange.min_price}</p>
                                     <button className="button button--icon button--refresh"><span
                                         className="acc-text">Refresh</span></button>
                                 </div>
                                 <div className="outfit-tile">
                                     <img className="articleImage" alt="" src={outfit[4].imageURL}/>
-                                    <p>£30</p>
+                                    <p>£{outfit[4].priceRange.min_price}</p>
                                     <button className="button button--icon button--refresh"><span
                                         className="acc-text">Refresh</span></button>
                                 </div>
