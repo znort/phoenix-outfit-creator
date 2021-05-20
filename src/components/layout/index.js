@@ -52,13 +52,13 @@ class Layout extends Component {
                         <div className="outfit-layout outfit-layout--five">
                             <div className="outfit-tile-group">
                                 <div className="outfit-tile">
-                                    <img className="articleImage" alt="" src="https://asset1.marksandspencer.com/is/image/mands/SD_01_T02_6347W_Y0_X_EC_94"/>
+                                    <img className="articleImage" alt="" src={outfit[0].imageURL}/>
                                     <p>£30</p>
                                     <button className="button button--icon button--refresh"><span
                                         className="acc-text">Refresh</span></button>
                                 </div>
                                 <div className="outfit-tile">
-                                    <img className="articleImage" alt="" src="https://asset1.marksandspencer.com/is/image/mands/SD_01_T01_0001S_P4_X_EC_94"/>
+                                    <img className="articleImage" alt="" src={outfit[1].imageURL}/>
                                     <p>£30</p>
                                     <button className="button button--icon button--refresh"><span
                                         className="acc-text">Refresh</span></button>
@@ -66,7 +66,7 @@ class Layout extends Component {
                             </div>
                             <div className="outfit-tile-group">
                                 <div className="outfit-tile outfit-tile--full-height">
-                                    <img className="articleImage" alt="" src="https://asset1.marksandspencer.com/is/image/mands/SD_08_T97_6801A_SV_X_EC_90"/>
+                                    <img className="articleImage" alt="" src={outfit[2].imageURL}/>
                                     <p>£30</p>
                                     <button className="button button--icon button--refresh"><span
                                         className="acc-text">Refresh</span></button>
@@ -74,13 +74,13 @@ class Layout extends Component {
                             </div>
                             <div className="outfit-tile-group">
                                 <div className="outfit-tile">
-                                    <img className="articleImage" alt="" src="https://asset1.marksandspencer.com/is/image/mands/SD_01_T83_4800_E4_X_EC_90"/>
+                                    <img className="articleImage" alt="" src={outfit[3].imageURL}/>
                                     <p>£30</p>
                                     <button className="button button--icon button--refresh"><span
                                         className="acc-text">Refresh</span></button>
                                 </div>
                                 <div className="outfit-tile">
-                                    <img className="articleImage" alt="" src="https://asset1.marksandspencer.com/is/image/mands/SD_01_T59_5936J_T8_X_EC_94"/>
+                                    <img className="articleImage" alt="" src={outfit[4].imageURL}/>
                                     <p>£30</p>
                                     <button className="button button--icon button--refresh"><span
                                         className="acc-text">Refresh</span></button>
@@ -151,15 +151,15 @@ class Layout extends Component {
                         </ul>
                     </div>
 
-                    <div>
-                        <ul>
-                            {outfit.map(article => (
-                                <li key={article.articleId}>
-                                    {article.imageURL} {article.category} {article.slot}
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
+                    {/*<div>*/}
+                    {/*    <ul>*/}
+                    {/*        {outfit.map(article => (*/}
+                    {/*            <li key={article.articleId}>*/}
+                    {/*                {article.imageURL} {article.category} {article.slot}*/}
+                    {/*            </li>*/}
+                    {/*        ))}*/}
+                    {/*    </ul>*/}
+                    {/*</div>*/}
                 </div>
             )
         }
