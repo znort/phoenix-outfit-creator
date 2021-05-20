@@ -42,20 +42,6 @@ spec:
         volumeMounts:
         - name: config-volume
           mountPath: /etc/besk/conf/
-        livenessProbe:
-          httpGet:
-            path: /api/v1/status
-            port: 8080
-          initialDelaySeconds: 20
-          timeoutSeconds: 2
-          periodSeconds: 10
-        readinessProbe:
-          httpGet:
-            path: /api/v1/health
-            port: 8080
-          initialDelaySeconds: 20
-          timeoutSeconds: 2
-          periodSeconds: 10
         resources:
           # keep request = limit to keep this container in guaranteed class
           limits:
