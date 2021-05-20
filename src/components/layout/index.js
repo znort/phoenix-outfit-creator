@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import '../../styles/dashboard.scss';
+import {onBFCacheRestore} from "web-vitals/dist/modules/lib/onBFCacheRestore";
+import Article from "../article";
 
 
 class Layout extends Component {
@@ -17,10 +19,11 @@ class Layout extends Component {
             .then(res => res.json())
             .then(
                 (result) => {
-                    console.log(result);
+
                     let keys = Object.keys(result);
                     let random = result[keys[keys.length * Math.random() << 0]];
 
+                    // logic to dictate slot goes here. final order of the articles dictates where they go
                     this.setState({
                         isLoaded: true,
                         outfit: random
@@ -52,38 +55,23 @@ class Layout extends Component {
                         <div className="outfit-layout outfit-layout--five">
                             <div className="outfit-tile-group">
                                 <div className="outfit-tile">
-                                    <img className="articleImage" alt="" src={outfit[0].imageURL}/>
-                                    <p>£{outfit[0].priceRange.min_price}</p>
-                                    <button className="button button--icon button--refresh"><span
-                                        className="acc-text">Refresh</span></button>
+                                    <Article articles={outfit[1]}/>
                                 </div>
                                 <div className="outfit-tile">
-                                    <img className="articleImage" alt="" src={outfit[1].imageURL}/>
-                                    <p>£{outfit[1].priceRange.min_price}</p>
-                                    <button className="button button--icon button--refresh"><span
-                                        className="acc-text">Refresh</span></button>
+                                    <Article articles={outfit[2]}/>
                                 </div>
                             </div>
                             <div className="outfit-tile-group">
                                 <div className="outfit-tile outfit-tile--full-height">
-                                    <img className="articleImage" alt="" src={outfit[2].imageURL}/>
-                                    <p>£{outfit[2].priceRange.min_price}</p>
-                                    <button className="button button--icon button--refresh"><span
-                                        className="acc-text">Refresh</span></button>
+                                    <Article articles={outfit[0]}/>
                                 </div>
                             </div>
                             <div className="outfit-tile-group">
                                 <div className="outfit-tile">
-                                    <img className="articleImage" alt="" src={outfit[3].imageURL}/>
-                                    <p>£{outfit[3].priceRange.min_price}</p>
-                                    <button className="button button--icon button--refresh"><span
-                                        className="acc-text">Refresh</span></button>
+                                    <Article articles={outfit[3]}/>
                                 </div>
                                 <div className="outfit-tile">
-                                    <img className="articleImage" alt="" src={outfit[4].imageURL}/>
-                                    <p>£{outfit[4].priceRange.min_price}</p>
-                                    <button className="button button--icon button--refresh"><span
-                                        className="acc-text">Refresh</span></button>
+                                    <Article articles={outfit[4]}/>
                                 </div>
                             </div>
                             <div className="footer">
