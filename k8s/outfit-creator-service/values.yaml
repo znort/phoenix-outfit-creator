@@ -5,20 +5,12 @@ name: outfit-creator-service
 replicaCount: 1
 autoScaling:
   minReplicas: 1
-  maxReplicas: 4
+  maxReplicas: 2
   cpuTargetPercentage: 85
 image:
   repository: localhost:5000/products
   tag: latest
   pullPolicy: IfNotPresent
   config:
-    - env: MONGODB_CLIENT
-      secretKey: mongodb_client
-    - env: RESNET_GRPC_HOST
-      secretKey: resnet_grpc_host
-    - env: INCEPTION_RESNET_GRPC_HOST
-      secretKey: inception_resnet_grpc_host
-    - env: CONFIG_SPEC
-      secretKey: config_spec
-    - env: LOG_LEVEL
-      secretKey: log_level
+    - env: search_auth
+      secretKey: search_auth
