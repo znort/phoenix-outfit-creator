@@ -9,4 +9,6 @@ RUN pip install --upgrade pip && \
     pip install gunicorn && \
     rm -rf ~/.cache/pip
 
+WORKDIR backend
+
 CMD python __init__.py
