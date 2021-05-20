@@ -33,7 +33,6 @@ class OutfitCreatorService(AbstractApplicationService):
         return web.Response(body="User Created", status=201)
 
     async def get_user(self, request):
-
         return web.Response(body="hello", status=200)
 
     async def post_outfits(self, request):
@@ -45,6 +44,7 @@ class OutfitCreatorService(AbstractApplicationService):
         outfit_id = await request.json()
         outfits = self.outfits_datastore.get_by_id(outfit_id)
         return web.Response(body=json.dumps(outfits), status=200)
+
     async def search(self, request):
         url = request.rel_url.query
         search_term = extract_single_parameter(
