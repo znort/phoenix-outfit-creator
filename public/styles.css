@@ -185,7 +185,6 @@ p {
 
 .outfit-tile {
   flex-basis: calc(50% - 5px);
-  height: 320px;
   margin-bottom: 10px;
   position: relative;
 }
@@ -197,6 +196,7 @@ p {
 
 .outfit-tile img {
   object-fit: contain;
+  padding-bottom: 45px;
   width: 100%;
 }
 
