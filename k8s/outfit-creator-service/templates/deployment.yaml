@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.name }}
+  labels:
+    app: {{ .Values.name }}
+    version: {{ .Values.image.tag }}
+spec:
+  replicas: {{ div .Values.autoScaling.maxReplicas 2 }}
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 10%
+      maxSurge: 25%
+  revisionHistoryLimit: 1
+  selector:
+    matchLabels:
+      app: {{ .Values.name }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.name }}
+        version: {{ .Values.image.tag }}
+    spec:
+      containers:
+      - name: {{ .Values.name }}
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        env:
+          - name: ENV
+            value: {{ .Values.environment }}
+          {{- range .Values.image.config }}
+          - name: {{ .env  }}
+            valueFrom:
+              secretKeyRef:
+                name: {{ $.Values.name }}
+                key: {{ .secretKey }}
+          {{- end }}
+        command: ["python", "-m", "__init__"]
+        ports:
+        - containerPort: 8080
+          protocol: TCP
+        volumeMounts:
+        - name: config-volume
+          mountPath: /etc/besk/conf/
+        resources:
+          # keep request = limit to keep this container in guaranteed class
+          limits:
+            cpu: 250m
+            memory: 640Mi
+          requests:
+            cpu: 100m
+            memory: 192Mi
+      volumes:
+        - name: config-volume
+          configMap:
+            name: product-besk-config
