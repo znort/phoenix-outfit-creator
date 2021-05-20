@@ -155,7 +155,7 @@ class Layout extends Component {
                         <ul>
                             {outfit.map(article => (
                                 <li key={article.articleId}>
-                                    {article.imageURL} {article.category}
+                                    {article.imageURL} {article.category} {article.slot}
                                 </li>
                             ))}
                         </ul>
