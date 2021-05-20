@@ -1,2 +1,2 @@
-# Outfit Geneator
+# Outfit Generator
 
