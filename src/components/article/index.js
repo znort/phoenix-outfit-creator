@@ -8,21 +8,21 @@ class Article extends Component {
             articleIndex: 0,
             article: this.props.articles[0]
         }
-        console.log(this.props.articles);
+        // console.log(this.props.articles);
         this.handleClick = this.handleClick.bind(this)
     }
 
     handleClick(){
         let newIndex = this.state.articleIndex + 1;
         if (newIndex>3) newIndex = 0;
-        console.log("HANDLE " + newIndex)
+        // console.log("HANDLE " + newIndex)
 
         this.setState({
             articleIndex: newIndex,
             article: this.props.articles[newIndex]
         })
 
-        console.log(this.state.article)
+        // console.log(this.state.article)
     }
 
     render() {

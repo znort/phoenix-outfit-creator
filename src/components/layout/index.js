@@ -21,7 +21,25 @@ class Layout extends Component {
                         let keys = Object.keys(result);
                         let random = result[keys[keys.length * Math.random() << 0]];
 
-                        // logic to dictate slot goes here. final order of the articles dictates where they go
+                        // //randomise order
+                        // keys = Object.keys(random);
+                        // random = random[keys[keys.length * Math.random() << 0]];
+
+                        console.log(random)
+
+                        // logic to dictate slot goes here. if a dress, outer or bottom put at front (center stage)
+                        random.map(article => {
+                            if (article[0].macroCategory === "dresses") random.sort(function (x, y) {
+                                return x == article ? -1 : y == article ? 1 : 0;
+                            });
+                            if (article[0].macroCategory === "outer") random.sort(function (x, y) {
+                                return x == article ? -1 : y == article ? 1 : 0;
+                            });
+                            if (article[0].macroCategory === "bottoms") random.sort(function (x, y) {
+                                return x == article ? -1 : y == article ? 1 : 0;
+                            });
+                        })
+
                         this.setState({
                             isLoaded: true,
                             outfit: random
@@ -39,11 +57,12 @@ class Layout extends Component {
                     }
                 )
         }
-
-    }
-
-    handleGenerateNewClick() {
-        this.generate();
+        this.handleGenerateNewClick = () => {
+            this.setState({
+                isLoaded: false
+            })
+            this.generate()
+        }
     }
 
 
