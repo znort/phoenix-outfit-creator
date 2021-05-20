@@ -9,7 +9,7 @@ from besk.datastore.helpers import mongo_model_datastore
 from besk.utils.logging import setup_logger
 from besk.utils.url_parameter_extractor import extract_single_parameter
 
-from backend.user_outfits.user_outfit_datastore import (
+from user_outfits.user_outfit_datastore import (
     UserDatastore,
     User,
     OutfitsDatastore,

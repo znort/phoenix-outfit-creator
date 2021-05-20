@@ -8,6 +8,12 @@ a {
 
 @font-face {
   font-family: 'mns-london';
+  src: url(../fonts/mns-london/MnsLondon-Condensed.woff2) format('woff2');
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'mns-london';
   src: url(../fonts/mns-london/MnsLondon-Regular.woff2) format('woff2');
 }
 
@@ -94,10 +100,6 @@ p {
   align-items: center;
 }
 
-.button--icon svg {
-  margin-right: 10px;
-}
-
 .container {
   background-color: #fff;
   display: flex;
@@ -106,10 +108,29 @@ p {
   width: 1248px;
 }
 
+.logo {
+  color: #FF5050;
+  font-size: 3.6rem;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+}
+
+.logo img {
+  margin-bottom: 5px;
+}
+
 .aside {
   position: relative;
   margin-right: 54px;
-  width: 245px;
+  width: 240px;
+}
+
+.aside h2 {
+  line-height: 1.45;
+  margin: 40px 0 10px;
 }
 
 .aside .button {
@@ -131,7 +152,7 @@ p {
 
 .footer .button {
   margin-left: 10px;
-  width: 269px;
+  width: 253px;
 }
 
 .button-group {
