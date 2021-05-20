@@ -6,10 +6,6 @@ a {
   text-decoration: none;
 }
 
-.articleImage {
-  width:100%
-}
-
 @font-face {
   font-family: 'mns-london';
   src: url(../fonts/mns-london/MnsLondon-Condensed.woff2) format('woff2');
@@ -196,7 +192,20 @@ p {
 }
 
 .outfit-tile--full-height {
+  display: flex;
   height: 650px;
+}
+
+.outfit-tile img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.outfit-tile p {
+  bottom: 12px;
+  left: 12px;
+  margin: 0;
+  position: absolute;
 }
 
 .outfit-tile .button {
