@@ -6,6 +6,10 @@ a {
   text-decoration: none;
 }
 
+.articleImage {
+  width:100%
+}
+
 @font-face {
   font-family: 'mns-london';
   src: url(../fonts/mns-london/MnsLondon-Condensed.woff2) format('woff2');

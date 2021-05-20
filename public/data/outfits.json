@@ -12,7 +12,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60471932",
@@ -26,7 +27,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60493817",
@@ -40,7 +42,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60286918",
@@ -54,7 +57,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "22183633",
@@ -68,7 +72,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22196810": [
@@ -84,7 +89,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "22527201",
@@ -98,7 +104,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60264166",
@@ -112,7 +119,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60493147",
@@ -126,7 +134,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60138726",
@@ -140,7 +149,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22196813": [
@@ -156,7 +166,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60441262",
@@ -170,7 +181,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60485620",
@@ -184,7 +196,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60138726",
@@ -198,7 +211,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "22196813",
@@ -212,7 +226,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22197588": [
@@ -228,7 +243,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60446841",
@@ -242,7 +258,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "22526785",
@@ -256,7 +273,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "22197588",
@@ -270,7 +288,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60374319",
@@ -284,7 +303,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22276512": [
@@ -300,7 +320,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60493147",
@@ -314,7 +335,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "22276512",
@@ -328,7 +350,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60217524",
@@ -342,7 +365,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60275245",
@@ -356,7 +380,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22456361": [
@@ -372,7 +397,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60374817",
@@ -386,7 +412,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60471932",
@@ -400,7 +427,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "22456361",
@@ -414,7 +442,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60495243",
@@ -428,7 +457,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22468880": [
@@ -444,7 +474,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "22468880",
@@ -458,7 +489,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60514021",
@@ -472,7 +504,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60451809",
@@ -486,7 +519,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60457212",
@@ -500,7 +534,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22525560": [
@@ -516,7 +551,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60487465",
@@ -530,7 +566,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60464308",
@@ -544,7 +581,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "22525560",
@@ -558,7 +596,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60369136",
@@ -572,7 +611,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22526201": [
@@ -588,7 +628,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60444418",
@@ -602,7 +643,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "22526201",
@@ -616,7 +658,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60458413",
@@ -630,7 +673,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60380794",
@@ -644,7 +688,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22526220": [
@@ -660,7 +705,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60186252",
@@ -674,7 +720,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60463130",
@@ -688,7 +735,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60371902",
@@ -702,7 +750,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "22526220",
@@ -716,7 +765,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22527164": [
@@ -732,7 +782,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60264166",
@@ -746,7 +797,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60440110",
@@ -760,7 +812,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60457684",
@@ -774,7 +827,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "22527164",
@@ -788,7 +842,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22527600": [
@@ -804,7 +859,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60371539",
@@ -818,7 +874,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60371902",
@@ -832,7 +889,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60485773",
@@ -846,7 +904,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "22527600",
@@ -860,7 +919,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22527621": [
@@ -876,7 +936,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "22527621",
@@ -890,7 +951,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60371539",
@@ -904,7 +966,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60464307",
@@ -918,7 +981,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60380797",
@@ -932,7 +996,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22527668": [
@@ -948,7 +1013,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60264744",
@@ -962,7 +1028,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60499104",
@@ -976,7 +1043,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60487847",
@@ -990,7 +1058,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "22527668",
@@ -1004,7 +1073,8 @@
             "promotionalPriceRange": {
                 "max_price": 47.2,
                 "min_price": 47.2
-            }
+            },
+            "slot": 4
         }
     ],
     "22527720": [
@@ -1020,7 +1090,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "22527720",
@@ -1034,7 +1105,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60155955",
@@ -1048,7 +1120,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "22527880",
@@ -1062,7 +1135,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60136676",
@@ -1076,7 +1150,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22527860": [
@@ -1092,7 +1167,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "22460688",
@@ -1106,7 +1182,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60497806",
@@ -1120,7 +1197,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60489200",
@@ -1134,7 +1212,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60448048",
@@ -1148,7 +1227,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "22527868": [
@@ -1164,7 +1244,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60492731",
@@ -1178,7 +1259,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60444451",
@@ -1192,7 +1274,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60371902",
@@ -1206,7 +1289,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60369136",
@@ -1220,7 +1304,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "60107262": [
@@ -1236,7 +1321,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60107262",
@@ -1250,7 +1336,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60458286",
@@ -1264,7 +1351,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60487190",
@@ -1278,7 +1366,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60460164",
@@ -1292,7 +1381,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "60138121": [
@@ -1308,7 +1398,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60500287",
@@ -1322,7 +1413,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60452857",
@@ -1336,7 +1428,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60483935",
@@ -1350,7 +1443,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60138121",
@@ -1364,7 +1458,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "60149853": [
@@ -1380,7 +1475,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60446595",
@@ -1394,7 +1490,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60495835",
@@ -1408,7 +1505,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60439661",
@@ -1422,7 +1520,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60149853",
@@ -1436,7 +1535,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "60166848": [
@@ -1452,7 +1552,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60166848",
@@ -1466,7 +1567,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60471932",
@@ -1480,7 +1582,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60214658",
@@ -1494,7 +1597,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60487538",
@@ -1508,7 +1612,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "60194183": [
@@ -1524,7 +1629,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60458413",
@@ -1538,7 +1644,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60506789",
@@ -1552,7 +1659,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60369136",
@@ -1566,7 +1674,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60428601",
@@ -1580,7 +1689,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "60213414": [
@@ -1596,7 +1706,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60463131",
@@ -1610,7 +1721,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60493166",
@@ -1624,7 +1736,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60442917",
@@ -1638,7 +1751,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60483434",
@@ -1652,7 +1766,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "60214472": [
@@ -1668,7 +1783,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60226658",
@@ -1682,7 +1798,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60214472",
@@ -1696,7 +1813,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60451809",
@@ -1710,7 +1828,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60224061",
@@ -1724,7 +1843,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "60256031": [
@@ -1740,7 +1860,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60514485",
@@ -1754,7 +1875,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60256031",
@@ -1768,7 +1890,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60493160",
@@ -1782,7 +1905,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60494592",
@@ -1796,7 +1920,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "60373784": [
@@ -1812,7 +1937,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60373784",
@@ -1826,7 +1952,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60441447",
@@ -1840,7 +1967,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60506789",
@@ -1854,7 +1982,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60369715",
@@ -1868,7 +1997,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ],
     "60374034": [
@@ -1884,7 +2014,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 0
         },
         {
             "articleId": "60374034",
@@ -1898,7 +2029,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 1
         },
         {
             "articleId": "60490030",
@@ -1912,7 +2044,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 2
         },
         {
             "articleId": "60479320",
@@ -1926,7 +2059,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 3
         },
         {
             "articleId": "60460173",
@@ -1940,7 +2074,8 @@
             "promotionalPriceRange": {
                 "max_price": 0.0,
                 "min_price": 0.0
-            }
+            },
+            "slot": 4
         }
     ]
 }
