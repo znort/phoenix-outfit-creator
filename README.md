@@ -1,5 +1,7 @@
 # How install
 
+someone wants to clean this up - go for it
+
 - git clone or download the app
 - install dependencies via npm
 - type npm start to run from your terminal
