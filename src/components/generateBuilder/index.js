@@ -10,7 +10,7 @@ class GenerateOutfit extends Component {
             <div class="container outfit-generator">
                 <div class="aside">
                     <h1 class="logo">
-                        <img src="images/outfit-logo.svg" width="240" />
+                        <img src="images/outfit-logo.svg" width="240" alt=""/>
                          builder
                     </h1>
                     <p>Do you feel like you’ve been stuck in a rut lately in terms of fashion or what to wear?</p>
