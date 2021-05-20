@@ -4,8 +4,7 @@ import '../../styles/dashboard.scss';
 const style={
     width: '510px',
 };
-class BuilderLayout extends Component {
-
+class Builder extends Component {
     render() {
         return (
             <div class="main">
@@ -13,23 +12,23 @@ class BuilderLayout extends Component {
                 <div class="outfit-layout outfit-layout--five">
                     <div class="outfit-tile-group">
                         <div class="builder-tile">
-                            <img src="" />
+                            <img src="" alt=""/>
                              </div>
                         <div class="builder-tile">
-                            <img src="" />
+                            <img src="" alt=""/>
                            </div>
                     </div>
                     <div class="outfit-tile-group">
                         <div class="builder-tile outfit-tile--full-height">
-                            <img src="" />
+                            <img src="" alt=""/>
                              </div>
                     </div>
                     <div class="outfit-tile-group">
                         <div class="builder-tile">
-                            <img src="" />
+                            <img src="" alt=""/>
                             </div>
                         <div class="builder-tile">
-                            <img src="" />
+                            <img src="" alt=""/>
                              </div>
                     </div>
                     <div class="footer">
@@ -40,7 +39,7 @@ class BuilderLayout extends Component {
                             <li class="tile tile--five"><button class="button button--icon"><span class="acc-text">Show five items</span></button></li>
                         </ul>
                         <div class="button-group">
-                            <button class="button button--inverted button--icon" style={style}>Add items & create outfits</button>
+                            <button id="summon_flyout" class="button button--inverted button--icon" style={style}>Add items & create outfits</button>
                         </div>
                     </div>
                 </div>
@@ -57,4 +56,4 @@ class BuilderLayout extends Component {
 }
 
 
-export default BuilderLayout
+export default Builder

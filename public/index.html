@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 
     <link href="styles.css" rel="stylesheet" media="all">
+    <link href="flyout.css" rel="stylesheet" media="all">
     <link href="normalize.css" rel="stylesheet" media="all">
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -47,5 +48,54 @@
     -->
     <script type="text/javascript"
       src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60a662d10c213301"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="http://cdn.rawgit.com/hammerjs/touchemulator/master/touch-emulator.js" type="text/javascript"></script>
+<script> TouchEmulator(); </script>
+<script>
+jQuery(document).ready(function() {
+  // summons the flyout menu - substitute this with whatever button ID the main page will use to do this command
+  jQuery('#summon_flyout').click(function() {
+    jQuery('#flyout_add_items').removeClass('hide_flyout');
+  });
+  // closes the flyout menu
+  jQuery('#close_flyout_add_items').click(function() {
+    jQuery('#flyout_add_items').addClass('hide_flyout');
+  });
+  // expands the various sections - not the most efficient way to do this, but i can't think properly any more
+  jQuery('#wishlist_li').click(function() {
+    jQuery('#wishlist_items').slideDown(500);
+    jQuery('#wishlist_li .chevron').addClass('active_chevron');
+  });
+  jQuery('#purchase_history_li').click(function() {
+    jQuery('#purchase_history_items').slideDown(500);
+    jQuery('#purchase_history_li .chevron').addClass('active_chevron');
+  });
+  jQuery('#recently_viewed_li').click(function() {
+    jQuery('#recently_viewed_items').slideDown(500);
+    jQuery('#recently_viewed_li .chevron').addClass('active_chevron');
+  });
+  // turns the carousel into a straight list once the 'see all' button is clicked
+  jQuery('#wishlist_items .see_all').click(function() {
+    jQuery('#wishlist_items ul').addClass('see_all_ul');
+    jQuery('#wishlist_items ul li').addClass('see_all_li');
+  });
+  jQuery('#purchase_history_items .see_all').click(function() {
+    jQuery('#purchase_history_items ul').addClass('see_all_ul');
+    jQuery('#purchase_history_items ul li').addClass('see_all_li');
+  });
+  jQuery('#recently_viewed_items .see_all').click(function() {
+    jQuery('#recently_viewed_items ul').addClass('see_all_ul');
+    jQuery('#recently_viewed_items ul li').addClass('see_all_li');
+  });
+  // illuminates the little white dots above images when they have been clicked
+  jQuery('.flyout_menu_items ul li img').click(function(index) {
+    jQuery(this).prev('.item_circle').addClass('selected_item');
+  });
+});
+</script>
+<!--    <style>-->
+<!--          .st0{fill - rule:evenodd;clip-rule:evenodd;}-->
+<!--</style>-->
   </body>
 </html>
