@@ -39,9 +39,6 @@ spec:
         ports:
         - containerPort: 8080
           protocol: TCP
-        volumeMounts:
-        - name: config-volume
-          mountPath: /etc/besk/conf/
         resources:
           # keep request = limit to keep this container in guaranteed class
           limits:
@@ -50,7 +47,3 @@ spec:
           requests:
             cpu: 100m
             memory: 192Mi
-      volumes:
-        - name: config-volume
-          configMap:
-            name: product-besk-config
