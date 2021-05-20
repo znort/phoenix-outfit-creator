@@ -1,4 +1,4 @@
-export function getOutfit() {
+export function outfits() {
     fetch('./outfits.json'
         , {
             headers: {
