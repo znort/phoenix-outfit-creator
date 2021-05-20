@@ -12,35 +12,46 @@ class Layout extends Component {
             isLoaded: false,
             outfit: []
         };
+
+        this.generate = () => {
+            fetch("./data/outfits.json")
+                .then(res => res.json())
+                .then(
+                    (result) => {
+
+                        let keys = Object.keys(result);
+                        let random = result[keys[keys.length * Math.random() << 0]];
+
+                        // logic to dictate slot goes here. final order of the articles dictates where they go
+                        this.setState({
+                            isLoaded: true,
+                            outfit: random
+                        })
+
+                    },
+                    // Note: it's important to handle errors here
+                    // instead of a catch() block so that we don't swallow
+                    // exceptions from actual bugs in components.
+                    (error) => {
+                        this.setState({
+                            isLoaded: true,
+                            error
+                        });
+                    }
+                )
+        }
+
     }
+
+    handleGenerateNewClick() {
+        this.generate();
+    }
+
 
     componentDidMount() {
-        fetch("./data/outfits.json")
-            .then(res => res.json())
-            .then(
-                (result) => {
-
-                    let keys = Object.keys(result);
-                    let random = result[keys[keys.length * Math.random() << 0]];
-
-                    // logic to dictate slot goes here. final order of the articles dictates where they go
-                    this.setState({
-                        isLoaded: true,
-                        outfit: random
-                    })
-
-                },
-                // Note: it's important to handle errors here
-                // instead of a catch() block so that we don't swallow
-                // exceptions from actual bugs in components.
-                (error) => {
-                    this.setState({
-                        isLoaded: true,
-                        error
-                    });
-                }
-            )
+        this.generate()
     }
+
 
     render() {
         const {error, isLoaded, outfit} = this.state;
@@ -95,7 +106,8 @@ class Layout extends Component {
                                 </ul>
                                 <div className="button-group">
                                     <button className="button">Save & share</button>
-                                    <button className="button button--inverted button--icon">
+                                    <button onClick={this.handleGenerateNewClick}
+                                            className="button button--inverted button--icon">
                                         <svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1"
                                              xmlns="http://www.w3.org/2000/svg"
                                              xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -153,5 +165,6 @@ class Layout extends Component {
         }
     }
 }
+
 
 export default Layout
