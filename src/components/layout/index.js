@@ -1,7 +1,14 @@
+
 import React, {Component} from 'react'
 import '../../styles/dashboard.scss';
-import Article from "../article";
-
+import Article from "../article";  
+import SkyLight from 'react-skylight';
+import html2canvas from 'html2canvas'
+const styleForOverlay = {
+    minHeight:'600px',
+    top:'30%',
+    position: 'absolute'
+  };
 
 class Layout extends Component {
     constructor(props) {
@@ -9,7 +16,8 @@ class Layout extends Component {
         this.state = {
             error: null,
             isLoaded: false,
-            outfit: []
+            outfit: [],
+            seen: false
         };
 
         this.generate = () => {
@@ -64,6 +72,25 @@ class Layout extends Component {
             this.generate()
         }
     }
+    takeshot = () => {
+
+        var completeOutfit = document.querySelector(".outfit-tiles");
+        var isCanvasSet = document.querySelectorAll('canvas')
+        
+        if(completeOutfit) {
+            if(isCanvasSet.length >= 1){
+                isCanvasSet[0].parentNode.removeChild(isCanvasSet[0]);
+            }
+            html2canvas(completeOutfit, {allowTaint: true, useCORS: true,  width: 800,
+                height: 700}).then(
+                function (canvas) {
+                    document
+                    .getElementById('save-share')
+                    .appendChild(canvas);
+            })
+        }
+    };
+    
 
 
     componentDidMount() {
@@ -103,7 +130,8 @@ class Layout extends Component {
                                     <Article articles={outfit[4]}/>
                                 </div>
                             </div>
-                            <div className="footer">
+                
+                            <div className="footer" data-html2canvas-ignore="true">
                                 <ul className="tile-chooser">
                                     <li className="tile tile--two">
                                         <button className="button button--icon"><span className="acc-text">Show two items</span>
@@ -123,7 +151,10 @@ class Layout extends Component {
                                     </li>
                                 </ul>
                                 <div className="button-group">
-                                    <button className="button">Save & share</button>
+                                    <button className="button" onClick={() => this.saveShareDialog.show()}>Save & share</button>
+                                    <SkyLight dialogStyles={styleForOverlay} beforeOpen={this.takeshot} ref={ref => this.saveShareDialog = ref}>
+                                    <div className="save-share-class" id="save-share"></div>
+                                    </SkyLight>
                                     <button onClick={this.handleGenerateNewClick}
                                             className="button button--inverted button--icon">
                                         <svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1"
@@ -179,6 +210,7 @@ class Layout extends Component {
                     {/*    </ul>*/}
                     {/*</div>*/}
                 </div>
+                
             )
         }
     }
