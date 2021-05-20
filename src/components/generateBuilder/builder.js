@@ -13,23 +13,23 @@ class BuilderLayout extends Component {
                 <div class="outfit-layout outfit-layout--five">
                     <div class="outfit-tile-group">
                         <div class="builder-tile">
-                            <img src="" />
+                            <img src="" alt=""/>
                              </div>
                         <div class="builder-tile">
-                            <img src="" />
+                            <img src="" alt=""/>
                            </div>
                     </div>
                     <div class="outfit-tile-group">
                         <div class="builder-tile outfit-tile--full-height">
-                            <img src="" />
+                            <img src="" alt=""/>
                              </div>
                     </div>
                     <div class="outfit-tile-group">
                         <div class="builder-tile">
-                            <img src="" />
+                            <img src="" alt=""/>
                             </div>
                         <div class="builder-tile">
-                            <img src="" />
+                            <img src="" alt=""/>
                              </div>
                     </div>
                     <div class="footer">
