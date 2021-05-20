@@ -41,9 +41,7 @@
 #flyout_menu_list > li p svg#magnifying_glass_icon { position: relative; top: 5px; }
 #flyout_menu_list > li p svg {}
 #flyout_menu_list > li #plus_icon { position: absolute; right: 20px; top: 30px; width: 17px; }
-</style>
 
-<style>
 li.flyout_menu_items { padding: 21px 0 21px 20px; list-style: none; background: #F3F1F1; }
 li.flyout_menu_items div.summary { clear: both; float: left; width: 100%; margin-bottom: 15px; }
 li.flyout_menu_items div.summary p.items_text { font-size: 14px; line-height: 30px; margin: 0; float: left; }
