@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import '../../styles/dashboard.scss';
-import {onBFCacheRestore} from "web-vitals/dist/modules/lib/onBFCacheRestore";
 import Article from "../article";
 
 
