@@ -224,6 +224,10 @@ p {
   width: 58px;
 }
 
+.action:hover {
+  background-color: #f9f9f9;
+}
+
 .action--shop {
   background-image: url('../images/shop.svg');
 }

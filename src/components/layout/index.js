@@ -36,52 +36,52 @@ class Layout extends Component {
 
     render() {
         return (
-            <div class="main">
-            <div class="outfit-tiles">
-                <div class="outfit-layout outfit-layout--five">
-                    <div class="outfit-tile-group">
-                        <div class="outfit-tile">
-                            <img src="" />
+            <div className="main">
+            <div className="outfit-tiles">
+                <div className="outfit-layout outfit-layout--five">
+                    <div className="outfit-tile-group">
+                        <div className="outfit-tile">
+                            <img alt="" src="" />
                             <p>£30</p>
-                            <button class="button button--icon button--refresh"><span class="acc-text">Refresh</span></button>
+                            <button className="button button--icon button--refresh"><span className="acc-text">Refresh</span></button>
                         </div>
-                        <div class="outfit-tile">
-                            <img src="" />
+                        <div className="outfit-tile">
+                            <img alt="" src="" />
                             <p>£30</p>
-                            <button class="button button--icon button--refresh"><span class="acc-text">Refresh</span></button>
-                        </div>
-                    </div>
-                    <div class="outfit-tile-group">
-                        <div class="outfit-tile outfit-tile--full-height">
-                            <img src="" />
-                            <p>£30</p>
-                            <button class="button button--icon button--refresh"><span class="acc-text">Refresh</span></button>
+                            <button className="button button--icon button--refresh"><span className="acc-text">Refresh</span></button>
                         </div>
                     </div>
-                    <div class="outfit-tile-group">
-                        <div class="outfit-tile">
-                            <img src="" />
+                    <div className="outfit-tile-group">
+                        <div className="outfit-tile outfit-tile--full-height">
+                            <img alt="" src="" />
                             <p>£30</p>
-                            <button class="button button--icon button--refresh"><span class="acc-text">Refresh</span></button>
-                        </div>
-                        <div class="outfit-tile">
-                            <img src="" />
-                            <p>£30</p>
-                            <button class="button button--icon button--refresh"><span class="acc-text">Refresh</span></button>
+                            <button className="button button--icon button--refresh"><span className="acc-text">Refresh</span></button>
                         </div>
                     </div>
-                    <div class="footer">
-                        <ul class="tile-chooser">
-                            <li class="tile tile--two"><button class="button button--icon"><span class="acc-text">Show two items</span></button></li>
-                            <li class="tile tile--three"><button class="button button--icon"><span class="acc-text">Show three items</span></button></li>
-                            <li class="tile tile--four"><button class="button button--icon"><span class="acc-text">Show four items</span></button></li>
-                            <li class="tile tile--five"><button class="button button--icon"><span class="acc-text">Show five items</span></button></li>
+                    <div className="outfit-tile-group">
+                        <div className="outfit-tile">
+                            <img alt="" src="" />
+                            <p>£30</p>
+                            <button className="button button--icon button--refresh"><span className="acc-text">Refresh</span></button>
+                        </div>
+                        <div className="outfit-tile">
+                            <img alt="" src="" />
+                            <p>£30</p>
+                            <button className="button button--icon button--refresh"><span className="acc-text">Refresh</span></button>
+                        </div>
+                    </div>
+                    <div className="footer">
+                        <ul className="tile-chooser">
+                            <li className="tile tile--two"><button className="button button--icon"><span className="acc-text">Show two items</span></button></li>
+                            <li className="tile tile--three"><button className="button button--icon"><span className="acc-text">Show three items</span></button></li>
+                            <li className="tile tile--four"><button className="button button--icon"><span className="acc-text">Show four items</span></button></li>
+                            <li className="tile tile--five"><button className="button button--icon"><span className="acc-text">Show five items</span></button></li>
                         </ul>
-                        <div class="button-group">
-                            <button class="button">Save & share</button>
-                            <button class="button button--inverted button--icon">
+                        <div className="button-group">
+                            <button className="button">Save & share</button>
+                            <button className="button button--inverted button--icon">
                             <svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
-                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                                         <g transform="translate(-663.000000, -518.000000)">
                                             <g transform="translate(450.000000, 239.000000)">
                                                 <g transform="translate(213.000000, 279.000000)">
@@ -94,17 +94,18 @@ class Layout extends Component {
                                             </g>
                                         </g>
                                     </g>
-                                </svg>
+                                </svg><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60a662d10c213301"></script>
                                 Generate new outfit!
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="outfit-actions">
+            <div className="outfit-actions">
+                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60a662d10c213301"></script>
                 <ul>
-                    <li class="action action--share"><span class="acc-text">Share the outfit</span></li>
-                    <li class="action action--settings"><span class="acc-text">Outfit settings</span></li>
+                    <li className="action action--share"><button className="button button--icon"><span className="acc-text">Share the outfit</span></button></li>
+                    <li className="action action--settings"><button className="button button--icon"><span className="acc-text">Outfit settings</span></button></li>
                 </ul>
             </div>
         </div>
