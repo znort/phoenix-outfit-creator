@@ -4,7 +4,7 @@ import '../../styles/dashboard.scss';
 const style={
     width: '510px',
 };
-class Layout extends Component {
+class BuilderLayout extends Component {
 
     render() {
         return (
@@ -12,23 +12,23 @@ class Layout extends Component {
             <div class="outfit-tiles">
                 <div class="outfit-layout outfit-layout--five">
                     <div class="outfit-tile-group">
-                        <div class="outfit-tile">
+                        <div class="builder-tile">
                             <img src="" />
                              </div>
-                        <div class="outfit-tile">
+                        <div class="builder-tile">
                             <img src="" />
                            </div>
                     </div>
                     <div class="outfit-tile-group">
-                        <div class="outfit-tile outfit-tile--full-height">
+                        <div class="builder-tile outfit-tile--full-height">
                             <img src="" />
                              </div>
                     </div>
                     <div class="outfit-tile-group">
-                        <div class="outfit-tile">
+                        <div class="builder-tile">
                             <img src="" />
                             </div>
-                        <div class="outfit-tile">
+                        <div class="builder-tile">
                             <img src="" />
                              </div>
                     </div>
@@ -57,4 +57,4 @@ class Layout extends Component {
 }
 
 
-export default Layout
+export default BuilderLayout
