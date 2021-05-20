@@ -30,13 +30,13 @@ class Layout extends Component {
                         // logic to dictate slot goes here. if a dress, outer or bottom put at front (center stage)
                         random.map(article => {
                             if (article[0].macroCategory === "dresses") random.sort(function (x, y) {
-                                return x == article ? -1 : y == article ? 1 : 0;
+                                return x === article ? -1 : y === article ? 1 : 0;
                             });
                             if (article[0].macroCategory === "outer") random.sort(function (x, y) {
-                                return x == article ? -1 : y == article ? 1 : 0;
+                                return x === article ? -1 : y === article ? 1 : 0;
                             });
                             if (article[0].macroCategory === "bottoms") random.sort(function (x, y) {
-                                return x == article ? -1 : y == article ? 1 : 0;
+                                return x === article ? -1 : y === article ? 1 : 0;
                             });
                         })
 

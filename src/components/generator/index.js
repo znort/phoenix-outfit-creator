@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Layout from '../layout'
 
-class Canvas extends Component {
+class Generator extends Component {
 
     render() {
         return (
@@ -32,4 +32,4 @@ class Canvas extends Component {
 }
 
 
-export default Canvas
+export default Generator
