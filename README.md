@@ -5,7 +5,7 @@ someone wants to clean this up - go for it
 - git clone or download the app
 - install dependencies via npm
 - type npm start to run from your terminal
-- See app in local env at localhost: 3000 or http://192.168.0.17:3000
+- See app in local env at localhost: 3000 
 
 
 
