@@ -19,7 +19,6 @@ class Canvas extends Component {
 
   render() {
     return (
-
             <div class="container outfit-generator">
                     <div class="aside">
                         <h1>Outfit generator</h1>
