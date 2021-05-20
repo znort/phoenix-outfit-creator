@@ -4,6 +4,8 @@ EXPOSE $PORT
 
 COPY . .
 
+WORKDIR backend
+
 RUN pip install --upgrade pip && \
     pip install -r requirements.txt && \
     pip install gunicorn && \
