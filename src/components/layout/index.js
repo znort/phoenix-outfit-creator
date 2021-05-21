@@ -1,7 +1,14 @@
+
 import React, {Component} from 'react'
 import '../../styles/dashboard.scss';
-import Article from "../article";
-
+import Article from "../article";  
+import SkyLight from 'react-skylight';
+import html2canvas from 'html2canvas'
+const styleForOverlay = {
+    minHeight:'600px',
+    top:'30%',
+    position: 'absolute'
+  };
 
 class Layout extends Component {
     constructor(props) {
@@ -9,11 +16,12 @@ class Layout extends Component {
         this.state = {
             error: null,
             isLoaded: false,
-            outfit: []
+            outfit: [],
+            seen: false
         };
 
         this.generate = () => {
-            fetch("./data/outfits.json")
+            fetch("outfits.json")
                 .then(res => res.json())
                 .then(
                     (result) => {
@@ -21,7 +29,25 @@ class Layout extends Component {
                         let keys = Object.keys(result);
                         let random = result[keys[keys.length * Math.random() << 0]];
 
-                        // logic to dictate slot goes here. final order of the articles dictates where they go
+                        // //randomise order
+                        // keys = Object.keys(random);
+                        // random = random[keys[keys.length * Math.random() << 0]];
+
+                        console.log(random)
+
+                        // logic to dictate slot goes here. if a dress, outer or bottom put at front (center stage)
+                        random.map(article => {
+                            if (article[0].macroCategory === "dresses") random.sort(function (x, y) {
+                                return x === article ? -1 : y === article ? 1 : 0;
+                            });
+                            if (article[0].macroCategory === "outer") random.sort(function (x, y) {
+                                return x === article ? -1 : y === article ? 1 : 0;
+                            });
+                            if (article[0].macroCategory === "bottoms") random.sort(function (x, y) {
+                                return x === article ? -1 : y === article ? 1 : 0;
+                            });
+                        })
+
                         this.setState({
                             isLoaded: true,
                             outfit: random
@@ -39,12 +65,32 @@ class Layout extends Component {
                     }
                 )
         }
-
+        this.handleGenerateNewClick = () => {
+            this.setState({
+                isLoaded: false
+            })
+            this.generate()
+        }
     }
+    takeshot = () => {
 
-    handleGenerateNewClick() {
-        this.generate();
-    }
+        var completeOutfit = document.querySelector(".outfit-tiles");
+        var isCanvasSet = document.querySelectorAll('canvas')
+        
+        if(completeOutfit) {
+            if(isCanvasSet.length >= 1){
+                isCanvasSet[0].parentNode.removeChild(isCanvasSet[0]);
+            }
+            html2canvas(completeOutfit, {allowTaint: true, useCORS: true,  width: 800,
+                height: 700}).then(
+                function (canvas) {
+                    document
+                    .getElementById('save-share')
+                    .appendChild(canvas);
+            })
+        }
+    };
+    
 
 
     componentDidMount() {
@@ -84,7 +130,8 @@ class Layout extends Component {
                                     <Article articles={outfit[4]}/>
                                 </div>
                             </div>
-                            <div className="footer">
+                
+                            <div className="footer" data-html2canvas-ignore="true">
                                 <ul className="tile-chooser">
                                     <li className="tile tile--two">
                                         <button className="button button--icon"><span className="acc-text">Show two items</span>
@@ -104,7 +151,10 @@ class Layout extends Component {
                                     </li>
                                 </ul>
                                 <div className="button-group">
-                                    <button className="button">Save & share</button>
+                                    <button className="button" onClick={() => this.saveShareDialog.show()}>Save & share</button>
+                                    <SkyLight dialogStyles={styleForOverlay} beforeOpen={this.takeshot} ref={ref => this.saveShareDialog = ref}>
+                                    <div className="save-share-class" id="save-share"></div>
+                                    </SkyLight>
                                     <button onClick={this.handleGenerateNewClick}
                                             className="button button--inverted button--icon">
                                         <svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1"
@@ -160,6 +210,7 @@ class Layout extends Component {
                     {/*    </ul>*/}
                     {/*</div>*/}
                 </div>
+                
             )
         }
     }

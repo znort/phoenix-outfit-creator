@@ -1,7 +1,8 @@
 import React from 'react'
-import Canvas from './components/canvas'
 import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
-import GenerateBuilder from './components/generateBuilder'
+
+import Generator from './components/generator'
+import Builder from './components/builder'
 
 
 const App = () => (
@@ -9,10 +10,10 @@ const App = () => (
   <Router>
     <Switch>
       <Route path={'/'}
-        component={Canvas} exact
+        component={Generator} exact
       />
       <Route path={'/generate-builder'}
-        component={GenerateBuilder} exact
+        component={Builder} exact
       />
     </Switch>
   </Router>
