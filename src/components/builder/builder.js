@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import '../../styles/dashboard.scss';
-import ProductSelector from "./ProductSelector";
 
 const style = {
     width: '510px',
