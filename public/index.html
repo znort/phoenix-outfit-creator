@@ -67,6 +67,11 @@ jQuery(document).ready(function() {
     jQuery('#wishlist_items').slideDown(500);
     jQuery('#wishlist_li .chevron').addClass('active_chevron');
   });
+  jQuery('#search_li').click(function() {
+    jQuery('#search_items').slideDown(500);
+    jQuery('#search_li .chevron').addClass('active_chevron');
+  });
+
   jQuery('#purchase_history_li').click(function() {
     jQuery('#purchase_history_items').slideDown(500);
     jQuery('#purchase_history_li .chevron').addClass('active_chevron');
@@ -76,6 +81,10 @@ jQuery(document).ready(function() {
     jQuery('#recently_viewed_li .chevron').addClass('active_chevron');
   });
   // turns the carousel into a straight list once the 'see all' button is clicked
+  jQuery('#search_items .see_all').click(function() {
+    jQuery('#search_items ul').addClass('see_all_ul');
+    jQuery('#search_items ul li').addClass('see_all_li');
+  });
   jQuery('#wishlist_items .see_all').click(function() {
     jQuery('#wishlist_items ul').addClass('see_all_ul');
     jQuery('#wishlist_items ul li').addClass('see_all_li');

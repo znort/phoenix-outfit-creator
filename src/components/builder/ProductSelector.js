@@ -1,33 +1,17 @@
-import React, {Component} from 'react'
+import React, {useState, Component, TextInput} from 'react'
+// import { SafeAreaView, StyleSheet, TextInput } from "react-native";
+// import { Text, TextInput, View } from 'react-native';
 
 class ProductSelector extends Component {
-    // constructor(props) {
-    //     super(props);
-    //
-    //     this.state = {
-    //         articleIndex: 0,
-    //         article: this.props.articles[0]
-    //     }
-    //     // console.log(this.props.articles);
-    //     this.handleClick = this.handleClick.bind(this)
-    // }
-    //
-    // handleClick(){
-    //     let newIndex = this.state.articleIndex + 1;
-    //     if (newIndex>3) newIndex = 0;
-    //     // console.log("HANDLE " + newIndex)
-    //
-    //     this.setState({
-    //         articleIndex: newIndex,
-    //         article: this.props.articles[newIndex]
-    //     })
-    //
-    //     // console.log(this.state.article)
-    // }
+
 
     render() {
+        // const [text, setText] = useState('');
+        // const [text, setText] = { open: false }; //useState("");
+
         // const {article} = this.state;
         return (
+
             <section id="flyout_add_items" className="transition hide_flyout">
                 <div className="flyout_heading">
                     <h1>Add items</h1>
@@ -83,7 +67,9 @@ class ProductSelector extends Component {
                             </g>
                         </svg>
                     </li>
-                    <li>
+
+
+                    <li id="search_li">
                         <p>
                             <svg version="1.1" id="magnifying_glass_icon" xmlns="http://www.w3.org/2000/svg"
                                  xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -102,6 +88,57 @@ class ProductSelector extends Component {
                             Search Item
                         </p>
                     </li>
+                    <li id="search_items" className="flyout_menu_items" className="search_items">
+                        <div className="summary">
+                            <p className="items_text"><span className="items_tally">28</span> Items</p>
+                            <p className="see_all">See all</p>
+                        </div>
+                        <div>
+                            {/*<TextInput*/}
+                            {/*    onChangeText = {text => setText(text)}*/}
+                            {/*    placeholder="Enter search term"*/}
+                            {/*    defaultValue=""*/}
+                            {/*  />*/}
+                        </div>
+                        <ul>
+                            <li>
+                                <div className="item_circle"></div>
+                                <img
+                                    src="https://asset1.cxnmarksandspencer.com/is/image/mands/SD_03_T07_3295_T4_X_EC_90?$PRD_ORD_REVIEW$"/>
+                            </li>
+                            <li>
+                                <div className="item_circle"></div>
+                                <img
+                                    src="https://asset1.cxnmarksandspencer.com/is/image/mands/SD_03_T30_1615A_J0_X_EC_90?$PRD_ORD_REVIEW$"/>
+                            </li>
+                            <li>
+                                <div className="item_circle"></div>
+                                <img
+                                    src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T07_6985_F4_X_EC_90?wid=570&qlt=40"/>
+                            </li>
+                            <li>
+                                <div className="item_circle"></div>
+                                <img
+                                    src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T07_5396_SA_X_EC_90?wid=570&qlt=40"/>
+                            </li>
+                            <li>
+                                <div className="item_circle"></div>
+                                <img
+                                    src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T70_3797F_F0_X_EC_90?wid=570&qlt=40"/>
+                            </li>
+                            <li>
+                                <div className="item_circle"></div>
+                                <img
+                                    src="https://asset1.marksandspencer.com/is/image/mands/SD_01_T57_6141_F0_X_EC_90?wid=570&qlt=40"/>
+                            </li>
+                        </ul>
+                    </li>
+
+
+
+
+
+
                     <li id="wishlist_li">
                         <p>Wish List</p>
                         <img className="chevron transition" src="chevron.png"/>

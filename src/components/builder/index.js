@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
 import '../../styles/dashboard.scss';
 import BuilderLayout from './builder'
-import ProductSelector from './ProductSelector'
+import ProductSelector from "./ProductSelector";
 
 class GenerateOutfit extends Component {
     render() {
@@ -35,11 +35,15 @@ class GenerateOutfit extends Component {
                         </g>
                     </svg></Link>
                 </div>
+
+
                 <BuilderLayout/>
 
                 <ProductSelector/>
 
             </div>
+
+
         )
     }
 }

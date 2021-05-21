@@ -21,7 +21,7 @@ class Layout extends Component {
         };
 
         this.generate = () => {
-            fetch("./data/outfits.json")
+            fetch("outfits.json")
                 .then(res => res.json())
                 .then(
                     (result) => {
