@@ -1,4 +1,4 @@
-import React, {useState, Component, TextInput} from 'react'
+import React, {Component} from 'react'
 // import { SafeAreaView, StyleSheet, TextInput } from "react-native";
 // import { Text, TextInput, View } from 'react-native';
 
@@ -88,7 +88,7 @@ class ProductSelector extends Component {
                             Search Item
                         </p>
                     </li>
-                    <li id="search_items" className="flyout_menu_items" className="search_items">
+                    <li id="search_items" className="flyout_menu_items" class="search_items">
                         <div className="summary">
                             <p className="items_text"><span className="items_tally">28</span> Items</p>
                             <p className="see_all">See all</p>
@@ -103,32 +103,32 @@ class ProductSelector extends Component {
                         <ul>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.cxnmarksandspencer.com/is/image/mands/SD_03_T07_3295_T4_X_EC_90?$PRD_ORD_REVIEW$"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.cxnmarksandspencer.com/is/image/mands/SD_03_T30_1615A_J0_X_EC_90?$PRD_ORD_REVIEW$"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T07_6985_F4_X_EC_90?wid=570&qlt=40"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T07_5396_SA_X_EC_90?wid=570&qlt=40"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T70_3797F_F0_X_EC_90?wid=570&qlt=40"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_01_T57_6141_F0_X_EC_90?wid=570&qlt=40"/>
                             </li>
                         </ul>
@@ -141,7 +141,7 @@ class ProductSelector extends Component {
 
                     <li id="wishlist_li">
                         <p>Wish List</p>
-                        <img className="chevron transition" src="chevron.png"/>
+                        <img alt="" className="chevron transition" src="chevron.png"/>
                     </li>
                     <li id="wishlist_items" className="flyout_menu_items" class="wishlist_items">
                         <div className="summary">
@@ -151,39 +151,39 @@ class ProductSelector extends Component {
                         <ul>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.cxnmarksandspencer.com/is/image/mands/SD_03_T07_3295_T4_X_EC_90?$PRD_ORD_REVIEW$"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.cxnmarksandspencer.com/is/image/mands/SD_03_T30_1615A_J0_X_EC_90?$PRD_ORD_REVIEW$"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T07_6985_F4_X_EC_90?wid=570&qlt=40"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T07_5396_SA_X_EC_90?wid=570&qlt=40"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T70_3797F_F0_X_EC_90?wid=570&qlt=40"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_01_T57_6141_F0_X_EC_90?wid=570&qlt=40"/>
                             </li>
                         </ul>
                     </li>
                     <li id="purchase_history_li">
                         <p>Purchase History</p>
-                        <img className="chevron transition" src="chevron.png"/>
+                        <img alt="" className="chevron transition" src="chevron.png"/>
                     </li>
                     <li id="purchase_history_items" className="flyout_menu_items" class="purchase_history_items">
                         <div className="summary">
@@ -193,39 +193,39 @@ class ProductSelector extends Component {
                         <ul>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.cxnmarksandspencer.com/is/image/mands/SD_03_T07_3295_T4_X_EC_90?$PRD_ORD_REVIEW$"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.cxnmarksandspencer.com/is/image/mands/SD_03_T30_1615A_J0_X_EC_90?$PRD_ORD_REVIEW$"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T07_6985_F4_X_EC_90?wid=570&qlt=40"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T07_5396_SA_X_EC_90?wid=570&qlt=40"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T70_3797F_F0_X_EC_90?wid=570&qlt=40"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_01_T57_6141_F0_X_EC_90?wid=570&qlt=40"/>
                             </li>
                         </ul>
                     </li>
                     <li id="recently_viewed_li">
                         <p>Recently Viewed</p>
-                        <img className="chevron transition" src="chevron.png"/>
+                        <img alt="" className="chevron transition" src="chevron.png"/>
                     </li>
                     <li id="recently_viewed_items" className="flyout_menu_items" class="recently_viewed_items">
                         <div className="summary">
@@ -235,32 +235,32 @@ class ProductSelector extends Component {
                         <ul>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.cxnmarksandspencer.com/is/image/mands/SD_03_T07_3295_T4_X_EC_90?$PRD_ORD_REVIEW$"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.cxnmarksandspencer.com/is/image/mands/SD_03_T30_1615A_J0_X_EC_90?$PRD_ORD_REVIEW$"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T07_6985_F4_X_EC_90?wid=570&qlt=40"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T07_5396_SA_X_EC_90?wid=570&qlt=40"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_03_T70_3797F_F0_X_EC_90?wid=570&qlt=40"/>
                             </li>
                             <li>
                                 <div className="item_circle"></div>
-                                <img
+                                <img alt=""
                                     src="https://asset1.marksandspencer.com/is/image/mands/SD_01_T57_6141_F0_X_EC_90?wid=570&qlt=40"/>
                             </li>
                         </ul>
