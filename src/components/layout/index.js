@@ -36,6 +36,7 @@ class Layout extends Component {
                         console.log(random)
 
                         // logic to dictate slot goes here. if a dress, outer or bottom put at front (center stage)
+                        // eslint-disable-next-line array-callback-return
                         random.map(article => {
                             if (article[0].macroCategory === "dresses") random.sort(function (x, y) {
                                 return x === article ? -1 : y === article ? 1 : 0;
